@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderiza com a variante default 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  max-width: 248px;
+  height: 40px;
+  margin-top: 32px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ED8E53;
+}
+
+.c0:disabled {
+  background-color: #969696;
+  color: #1F1F1F;
+  cursor: default;
+}
+
+<button
+    class="c0"
+  >
+    <p>
+      Button
+    </p>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renderiza com a variante outlined 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  max-width: 248px;
+  height: 40px;
+  margin-top: 32px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.c0:disabled {
+  background-color: #969696;
+  color: #1F1F1F;
+  cursor: default;
+}
+
+<button
+    class="c0"
+  >
+    <p>
+      Button
+    </p>
+  </button>
+</DocumentFragment>
+`;
